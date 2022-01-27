@@ -1,0 +1,26 @@
+{
+    "name": "Shipment",
+    "tables": [
+        {
+            "name": "States",
+            "isEnum": true,
+            "enumItems": [
+                {
+                    "key": "Delivered",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "Packages",
+            "columns": [
+                {
+                    "name": "Identifier"
+                },
+                {
+                    "name": "StateId"
+                }
+            ]
+        }
+    ]
+}
